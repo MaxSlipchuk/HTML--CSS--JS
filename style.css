@@ -1,0 +1,59 @@
+/* задати колір сторінки */
+body{
+    background-color: rgb(46, 39, 39);
+}
+
+h1{
+    color: antiquewhite;
+    text-shadow: 7px 7px 7px black;
+}
+
+#top{
+    text-align: center;
+}
+
+.paragraph{
+    color:  antiquewhite;
+    font-size: 22px;
+    text-shadow: 7px 7px 7px black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.text{
+    color: antiquewhite;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+    text-shadow: 4px 4px 4px black;
+    font-size: 18px;
+}
+
+.image-row{
+    /* дозволяє використовувати механізм гнучкого розміщення (Flexbox)
+    для управління дочірніми елементами цього всередині контейнера. */
+    display: flex;
+    /* встановлює вирівнювання дочірніх елементів вздовж головної (горизонтальної) осі. 
+    Значення space-betweenрозміщує дочірні елементи так, щоб між ними було рівномірне відступлення, 
+    і вони розтягуються від крайніх точок контейнера. */
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-left: 8%;
+
+}
+
+.image{
+    width: 35%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    box-shadow: 7px 7px 7px black;
+}
+
+#finish{
+    color: antiquewhite;
+    font-size: 18px;
+    text-shadow: 7px 7px 7px black;
+    text-align: center;
+}
