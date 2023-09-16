@@ -57,3 +57,15 @@ h1{
     text-shadow: 7px 7px 7px black;
     text-align: center;
 }
+#centered-link{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: underline;
+    text-shadow: 7px 7px 7px black;
+    /* text-align: center; */
+}
